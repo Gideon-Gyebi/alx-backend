@@ -40,12 +40,12 @@ class Server:
 
     def get_page(self, page: int = 1, page_size: int = 10) -> List[List]:
         """
-        Returns a page of the dataset.
+        Returning a page of the dataset.
         Args:
-            page (int): The page number.
-            page_size (int): The page size.
+            page (int): Is the page number.
+            page_size (int): Is the page size.
         Returns:
-            List[List]: The page of the dataset.
+            List[List]: Page of the dataset.
         """
         self.assert_positive_integer_type(page)
         self.assert_positive_integer_type(page_size)
@@ -61,10 +61,10 @@ class Server:
         """
         Returns a page of the dataset.
         Args:
-            page (int): The page number.
-            page_size (int): The page size.
+            page (int): Is the page number.
+            page_size (int): Is the page size.
         Returns:
-            List[List]: The page of the dataset.
+            List[List]: Page of the dataset.
         """
         total_pages = len(self.dataset()) // page_size + 1
         data = self.get_page(page, page_size)
