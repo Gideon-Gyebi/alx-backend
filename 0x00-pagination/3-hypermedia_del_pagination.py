@@ -48,8 +48,8 @@ class Server:
             page_size: the current page size
             data: actual page of the dataset
         Args:
-            index(int): first required index
-            page_size(int): required number of records per page
+            index(int): Is the first required index
+            page_size(int): Is the required number of records per page
         """
         dataset = self.indexed_dataset()
         data_length = len(dataset)
