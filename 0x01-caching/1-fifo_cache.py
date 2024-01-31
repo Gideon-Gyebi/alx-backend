@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""BasicCaching Script"""
+"""FIFOCache Script"""
 from base_caching import BaseCaching
 
 
