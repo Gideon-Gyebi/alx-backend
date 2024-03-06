@@ -1,4 +1,4 @@
-// Task 7: Create the Job processor
+// Task 7: Track progress and errors with Kue: Create the Job creator
 import { createQueue } from 'kue';
 
 const jobs = [
